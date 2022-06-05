@@ -55,7 +55,7 @@ export function Navbar() {
             <Link href={paths.$url()} passHref>
                 <a href=" pass">
                   <div className="mt-5% group block h-16 w-28 relative p-3 pt-4">
-                    <Image src="/logos/robiShopLogo.png" alt="Saleor logo" layout="responsive" width={600} height={200}/>
+                    <Image src="/logos/robiShopLogo.png" alt="robi logo" layout="responsive" width={600} height={200}/>
                   </div>
                 </a>
             </Link>
