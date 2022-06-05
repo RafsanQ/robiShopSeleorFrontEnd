@@ -1,5 +1,5 @@
 import { useApolloClient } from "@apollo/client";
-import { SearchIcon, ShoppingBagIcon, UserCircleIcon } from "@heroicons/react/outline";
+import { GiftIcon, PhoneIcon, SearchIcon, ShoppingBagIcon, UserCircleIcon } from "@heroicons/react/outline";
 import { useAuth, useAuthState } from "@saleor/sdk";
 import Image from "next/image";
 import Link from "next/link";
@@ -78,8 +78,8 @@ export function Navbar() {
               </div>
               <Link href={"recharge"} passHref>
                 <a href="recharge" className="group -m-2 p-2 flex items-center">
-                  
-                  
+                  <PhoneIcon className="flex-shrink-0 h-6 w-6 text-gray-400" />
+                  <GiftIcon className="flex-shrink-0 h-4 w-4 text-gray-400" />
                 </a>
               </Link>
               <Link href={paths.cart.$url()} passHref>
