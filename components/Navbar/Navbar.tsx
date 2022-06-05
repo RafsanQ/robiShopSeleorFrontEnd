@@ -51,9 +51,9 @@ export function Navbar() {
             <div className="flex justify-between items-center">
               <MainMenu />
               <Link href={paths.$url()} passHref>
-                <a href="pass">
-                  <div className="mt-px group block h-16 w-28 relative">
-                    <Image src="/saleor.svg" alt="Saleor logo" layout="fill" />
+                <a href=" pass">
+                  <div className="mt-5% group block h-16 w-28 relative p-3 pt-4">
+                    <Image src="/logos/robiShopLogo.png" alt="Saleor logo" layout="responsive" width={600} height={200}/>
                   </div>
                 </a>
               </Link>
@@ -74,6 +74,12 @@ export function Navbar() {
                   {currentChannel.currencyCode}
                 </button>
               </div>
+              <Link href={"recharge"} passHref>
+                <a href="recharge" className="group -m-2 p-2 flex items-center">
+                  
+                  
+                </a>
+              </Link>
               <Link href={paths.cart.$url()} passHref>
                 <a href="pass" className="group -m-2 p-2 flex items-center">
                   <ShoppingBagIcon
