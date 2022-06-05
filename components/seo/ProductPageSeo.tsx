@@ -7,7 +7,7 @@ interface ProductPageSeoProps {
 }
 
 export function ProductPageSeo({ product }: ProductPageSeoProps) {
-  const title = `${product?.seoTitle} - Saleor Tutorial`;
+  const title = `${product?.seoTitle} - Robishop`;
   const description = product?.seoDescription || "Welcome to tutorial storefront.";
   const thumbnailUrl = product.thumbnail?.url || "";
   const thumbnailAlt = product.thumbnail?.alt || title;
@@ -25,7 +25,7 @@ export function ProductPageSeo({ product }: ProductPageSeoProps) {
             alt: thumbnailAlt,
           },
         ],
-        site_name: "Saleor Tutorial",
+        site_name: "Robishop",
       }}
     />
   );
